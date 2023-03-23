@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Spell Card Creator</title>
+    <script defer src="./html2canvas.js"></script>
+    <script defer src="./html2canvas.min.js"></script>
+    <script defer src="./download.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <div class="block">
+            <label>Weapon Name: </label>
+            <input type="text" id="inputWeaponName" />
+        </div>
+        <div class="block">
+            <label>Weapon Rarity: </label>
+            <input type="text" id="inputWeaponRarity" />
+        </div>
+        <div class="formfield">
+            <label for="textarea">Weapon Description: </label>
+            <textarea class="form-control" id="inputWeaponText"></textarea>
+        </div>
+        <div class="block">
+            <label>Weapon Type: </label>
+            <input type="text" id="inputWeaponType" />
+        </div>
+        <button id="generateCard" onclick="generateCard()">Generate Card</button>
+
+    </div>
+    <div id="spellCard" class="card card-left cardBlock class-1 select">
+        <div class="front">
+            <div class="body">
+                <h3 class="srname"><b id="weaponName">Weapon Name</b></h3>
+                <ul class="status lined">
+                    <li><em><i id="weaponRarity">Weapon Rarity</i></em></li>
+                    <br clear="all">
+                </ul>
+
+                <p id="weaponText" class="text">WEAPON TEXT. WEAPON TEXT. WEAPON TEXT. WEAPON TEXT.
+                    WEAPON TEXT. WEAPON TEXT. WEAPON TEXT.
+                    WEAPON TEXT. WEAPON TEXT.WEAPON TEXT. WEAPON TEXT. WEAPON TEXT. WEAPON TEXT.
+                    WEAPON TEXT. WEAPON TEXT. WEAPON TEXT.
+                    WEAPON TEXT. WEAPON TEXT. WEAPON TEXT. WEAPON TEXT. WEAPON TEXT. WEAPON TEXT.
+                    WEAPON TEXT. WEAPON TEXT. WEAPON TEXT.
+                    WEAPON TEXT. WEAPON TEXT. </p>
+
+            </div>
+            <b class="srclass"><b id="weaponType">Weapon Type</b></b>
+        </div>
+    </div>
+    <h4 id="previewImg">Card Image Preview</h4>
+    <div id="outputCard"></div>
+    <button id="saveCard" onclick="saveCard()">Download Card</button>
+
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+
+.body{
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height: 1.42857143;
+text-align: left;
+-webkit-print-color-adjust: exact;
+box-sizing: border-box;
+font-size: 10px;
+color: black!important;
+background-color: #fff!important;
+border-radius: 5px;
+height: 100%;
+overflow: hidden;
+
+}
+.card {
+    display: inline-block;
+    width: 2.5in;
+    min-width: 2.5in;
+    height: 3.5in;
+    background: red!important;
+    padding: 0;
+    font-size: 10px;
+    position: relative;
+    margin: 0px;
+    vertical-align: top;
+    text-align: left;
+    z-index: 1;
+    margin: 0 1px 1px 0;
+}
+
+.front{
+        -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    text-align: left;
+    -webkit-print-color-adjust: exact;
+    font-size: 10px;
+    color: black!important;
+    display: block;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px 25px;
+    -webkit-box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card .status {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-bottom: -10px;
+    margin-top: 0;
+    color: white!important;
+}
+.card .status li{
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  padding: 0px;
+  margin-bottom: -10px;
+  margin-top: 0;
+  color: white!important;
+  background-color: red;
+}
+.card .status li em {
+  font-style: normal;
+  padding: 0px;
+  margin: 0;
+  display: block;
+  color: white!important;
+  font-weight: bold;
+  background-color: red;
+}
+.card .name {
+    font-size: 14px;
+    line-height: normal;
+    padding: 6px 5px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    min-height: 20px;
+}
+.card .status li.second {
+    border-left: 2px solid red;
+}
+.text{
+        -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    -webkit-print-color-adjust: exact;
+    box-sizing: border-box;
+    color: black!important;
+    padding: 2px 4px;
+    font-size: 10px;
+    line-height: 9px;
+    text-size-adjust: auto;
+    margin: 0;
+    display: inline-block;
+}
+.srclass{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    text-align: left;
+    -webkit-print-color-adjust: exact;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    font-size: 9px;
+    font-weight: normal;
+    color: white!important;
+}
+.srtype{
+        -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    text-align: left;
+    -webkit-print-color-adjust: exact;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    font-size: 10px;
+    font-weight: normal;
+    color: white!important;
+}
+.body p {
+  display: inline-block;
+}
+.srname{
+        -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-print-color-adjust: exact;
+    box-sizing: border-box;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: black!important;
+    font-size: 14px;
+    line-height: normal;
+    padding: 6px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    min-height: 20px;
+    border-color: red!important;
+}
+.card .status li {
+    padding: 3px 0px 3px 0px;
+    float: center;
+    vertical-align: middle;
+    font-size: 9px;
+    line-height: 9px;
+    min-height: 5px;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.card.class-1, .card.class-1 .need {
+    background-color: red!important;
+}
+.card {
+    display: inline-block;
+    width: 2.5in;
+    min-width: 2.5in;
+    height: 3.5in;
+    background: red!important;
+    padding: 0;
+    font-size: 10px;
+    position: relative;
+    margin: 0px;
+    vertical-align: top;
+    text-align: left;
+    z-index: 1;
+    margin: 0 1px 1px 0;
+}
+.card {
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+body {
+    background-color: #FAFAFA;
+    font-size: 12pt;
+}
+body {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #2c3e50;
+    background-color: #ffffff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#container{
+  width: 50%;
+  display: inline-block;
+}
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}
+input[type=text], select {
+  width: 25em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+#spellCard{
+  margin-left: 5em;
+  margin-top: 5em;
+}
+#outputCard{
+  display: none;
+}
+#saveCard{
+  display: none;
+}
+#previewImg{
+  display: none;
+}
+#inputWeaponText{
+  margin-left: 11em;
+  width: 50em;
+}
+#generateCard{
+  margin: 2em;
+}
