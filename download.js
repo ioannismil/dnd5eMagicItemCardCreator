@@ -39,4 +39,3 @@ function downloadImage(data, filename =weaponName.innerHTML+'.jpeg') {
     a.click();
 }
 
-textFit(document.getElementById("weaponText"));

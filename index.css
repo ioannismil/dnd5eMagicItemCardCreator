@@ -281,3 +281,24 @@ textarea {
   margin-left:25em;
   margin-top:10em;
 }
+@media only screen and (max-width: 600px) {
+  #textandImage{
+    margin-left:0em;
+    margin-top:0em;
+  }
+  #inputWeaponText{
+    margin-left: 11em;
+    width: 90%;
+  }
+  #spellCard{
+    margin-left: 20%;
+    margin-top: 5em;
+  }
+  #outputCard{
+    margin-left: 20%;
+    margin-top: 5em;
+  }
+  #saveCard{
+    margin-top: 5em;
+  }
+}
