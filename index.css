@@ -207,7 +207,7 @@ body {
     font-size: 15px;
     line-height: 1.42857143;
     color: #2c3e50;
-    background-color: #ffffff;
+    background-color: #ffff;
 }
 html {
     font-size: 10px;
@@ -258,7 +258,7 @@ textarea {
   resize: none;
 }
 #spellCard{
-  margin-left: 5em;
+  margin-left: 10em;
   margin-top: 5em;
 }
 #outputCard{
@@ -276,4 +276,8 @@ textarea {
 }
 #generateCard{
   margin: 2em;
+}
+#textandImage{
+  margin-left:25em;
+  margin-top:10em;
 }
