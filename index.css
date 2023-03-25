@@ -146,7 +146,7 @@ overflow: hidden;
     -webkit-print-color-adjust: exact;
     box-sizing: border-box;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     color: black!important;
     font-size: 14px;
     line-height: normal;
@@ -262,7 +262,7 @@ textarea {
   margin-top: 5em;
 }
 #outputCard{
-  display: none;
+  display: block;
 }
 #saveCard{
   display: none;
@@ -280,6 +280,10 @@ textarea {
 #textandImage{
   margin-left:25em;
   margin-top:10em;
+}
+#weaponRarity{
+  font-style: italic;
+  font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
   #textandImage{
