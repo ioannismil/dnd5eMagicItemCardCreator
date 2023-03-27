@@ -364,8 +364,7 @@ img{
     margin-top: 5em;
   }
   #outputCard{
-    margin-left: 20%;
-    margin-top: 5em;
+display: block;
   }
   #saveCard{
     margin-top: 5em;
