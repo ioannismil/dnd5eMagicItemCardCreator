@@ -42,12 +42,12 @@ function generateCard() {
 }
 function saveCard() {
     let weaponName = document.getElementById("weaponName").innerHTML
-    var dataURL = document.getElementById(weaponName).toDataURL("image/png")
-    downloadImage(dataURL, weaponName + '.png');
+    var dataURL = document.getElementById(weaponName).toDataURL("image/jpeg")
+    downloadImage(dataURL, weaponName + '.jpg');
 }
 
 
-function downloadImage(data, filename = weaponName.innerHTML + '.png') {
+function downloadImage(data, filename = weaponName.innerHTML + '.jpg') {
     var a = document.createElement('a');
     a.href = data;
     a.download = filename;
