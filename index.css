@@ -266,6 +266,7 @@ textarea {
 }
 #cardSave{
 max-width: 485px;
+max-height: 675px;
 }
 #outputCard{
   display: block;
@@ -344,9 +345,9 @@ img{
   max-width: 80%;
   max-height: 80%;
   margin: 10%;
-    height: 100%;
-    width: auto;
-    vertical-align: bottom; /* <-- fix the vertical gap */
+  height: 100%;
+  width: auto;
+  vertical-align: bottom; /* <-- fix the vertical gap */
 
 }
 
@@ -359,12 +360,9 @@ img{
     margin-left: 11em;
     width: 90%;
   }
-  #spellCard{
-    margin-left: 20%;
-    margin-top: 5em;
-  }
+
   #outputCard{
-display: block;
+    display: block;
   }
   #saveCard{
     margin-top: 5em;
