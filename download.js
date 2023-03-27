@@ -43,11 +43,11 @@ function generateCard() {
 function saveCard() {
     let weaponName = document.getElementById("weaponName").innerHTML
     var dataURL = document.getElementById(weaponName).toDataURL("image/jpeg")
-    downloadImage(dataURL, weaponName + '.jpg');
+    downloadImage(dataURL, weaponName + '.jpeg');
 }
 
 
-function downloadImage(data, filename = weaponName.innerHTML + '.jpg') {
+function downloadImage(data, filename = weaponName.innerHTML + '.jpeg') {
     var a = document.createElement('a');
     a.href = data;
     a.download = filename;
