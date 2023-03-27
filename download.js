@@ -30,17 +30,12 @@ function generateCard() {
         document.getElementById("outputCard").appendChild(canvas)
         canvas.setAttribute('id', weaponName.innerHTML);
     });
-    // html2canvas(document.querySelector("#spellCardA")).then(canvasF => {
-    //     document.getElementById("outputCard").appendChild(canvasF)
-    //     canvasF.setAttribute('id', weaponName.innerHTML+'Front');
-    // });
-    document.getElementById("cardSave").style.display = "block"
+    document.getElementById("cardSave").style.display = "none"
     document.getElementById("frontSave").style.display = "none"
     document.getElementById("saveCard").style.display = "block"
     document.getElementById("previewImg").style.display = "block"
 
 }
-//// FIX DOWNLOADCARD
 function saveCard() {
     let weaponName = document.getElementById("weaponName").innerHTML
     var dataURL = document.getElementById(weaponName).toDataURL("image/png")
