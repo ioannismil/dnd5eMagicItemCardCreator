@@ -15,34 +15,43 @@
 
 <body>
     <div id="textandImage">
-    <div id="container">
+        <div id="container">
 
-        <div class="block">
-            <label>Magic Item Name: </label>
-            <input type="text" id="inputWeaponName" />
-        </div>
-        <div class="block">
-            <label>Rarity: </label>
-            <input type="text" id="inputWeaponRarity" />
-        </div>
-        <div class="formfield">
-            <label for="textarea">Description: </label>
-            <textarea class="form-control" id="inputWeaponText"></textarea>
-        </div>
-        <div class="block">
-            <label>Type: </label>
-            <input type="text" id="inputWeaponType" />
-        </div>
-        <button id="generateCard" onclick="generateCard()">Generate Card</button>
+            <div class="block">
+                <label>Magic Item Name: </label>
+                <input type="text" id="inputWeaponName" />
+            </div>
+            <div class="block">
+                <label>Rarity: </label>
+                <input type="text" id="inputWeaponRarity" />
+            </div>
+            <div class="formfield">
+                <label for="textarea">Description: </label>
+                <textarea class="form-control" id="inputWeaponText"></textarea>
+            </div>
 
+            <div class="block">
+                <label>Type: </label>
+                <input type="text" id="inputWeaponType" />
+            </div>
+
+            <div class="block">
+                <label>Image: </label>
+                <input onChange="uploadImage()" id="uploadImage" type="file" accept="image/jpeg, image/png, image/jpg">
+            </div>
+
+            <button id="generateCard" onclick="generateCard()">Generate Card</button>
+        </div>
+        <div id="cardSave"> </div>
+        <div id="frontSave"> </div>
+
+        <h4 id="previewImg">Card Preview</h4>
+        <div id="outputCard"></div>
+        
+
+
+        <button id="saveCard" onclick="saveCard()">Download Card</button>
     </div>
-    <div id="cardSave"> </div>
-
-    <h4 id="previewImg">Card Preview</h4>
-    <div id="outputCard"></div>
-    
-    <button id="saveCard" onclick="saveCard()">Download Card</button>
-</div>
 </body>
 
 </html>
