@@ -8,7 +8,11 @@ function generateCard() {
     let inputWeaponText = document.getElementById("inputWeaponText").value
     let inputWeaponType = document.getElementById("inputWeaponType").value
     cardGenerator()
-    cardGeneratorFront(file)
+    if(document.getElementById("uploadImage").value==''){}else{
+        cardGeneratorFront(file)
+    }
+    
+    
     let weaponName = document.getElementById("weaponName")
     weaponName.innerHTML = inputWeaponName
 
