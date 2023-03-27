@@ -367,4 +367,9 @@ img{
   #saveCard{
     margin-top: 5em;
   }
+
+  #cardSave{
+    max-width: 245px;
+    max-height: 675px;
+    }
 }
